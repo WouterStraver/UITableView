@@ -14,13 +14,13 @@
 		26C94D7B19168EFB0083526A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C94D7A19168EFB0083526A /* main.m */; };
 		26C94D7F19168EFB0083526A /* WSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C94D7E19168EFB0083526A /* WSAppDelegate.m */; };
 		26C94D8219168EFB0083526A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C94D8019168EFB0083526A /* Main.storyboard */; };
-		26C94D8519168EFB0083526A /* WSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C94D8419168EFB0083526A /* WSViewController.m */; };
 		26C94D8719168EFB0083526A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C94D8619168EFB0083526A /* Images.xcassets */; };
 		26C94D8E19168EFB0083526A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C94D8D19168EFB0083526A /* XCTest.framework */; };
 		26C94D8F19168EFB0083526A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C94D6E19168EFB0083526A /* Foundation.framework */; };
 		26C94D9019168EFB0083526A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C94D7219168EFB0083526A /* UIKit.framework */; };
 		26C94D9819168EFB0083526A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26C94D9619168EFB0083526A /* InfoPlist.strings */; };
 		26C94D9A19168EFB0083526A /* UITableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C94D9919168EFB0083526A /* UITableViewControllerTests.m */; };
+		26C94DA51916903E0083526A /* WSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C94DA41916903E0083526A /* WSTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		26C94D7D19168EFB0083526A /* WSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSAppDelegate.h; sourceTree = "<group>"; };
 		26C94D7E19168EFB0083526A /* WSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSAppDelegate.m; sourceTree = "<group>"; };
 		26C94D8119168EFB0083526A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		26C94D8319168EFB0083526A /* WSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSViewController.h; sourceTree = "<group>"; };
-		26C94D8419168EFB0083526A /* WSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSViewController.m; sourceTree = "<group>"; };
 		26C94D8619168EFB0083526A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		26C94D8C19168EFB0083526A /* UITableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C94D8D19168EFB0083526A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		26C94D9519168EFB0083526A /* UITableViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		26C94D9719168EFB0083526A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		26C94D9919168EFB0083526A /* UITableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerTests.m; sourceTree = "<group>"; };
+		26C94DA31916903E0083526A /* WSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableViewController.h; sourceTree = "<group>"; };
+		26C94DA41916903E0083526A /* WSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				26C94D7D19168EFB0083526A /* WSAppDelegate.h */,
 				26C94D7E19168EFB0083526A /* WSAppDelegate.m */,
 				26C94D8019168EFB0083526A /* Main.storyboard */,
-				26C94D8319168EFB0083526A /* WSViewController.h */,
-				26C94D8419168EFB0083526A /* WSViewController.m */,
+				26C94DA31916903E0083526A /* WSTableViewController.h */,
+				26C94DA41916903E0083526A /* WSTableViewController.m */,
 				26C94D8619168EFB0083526A /* Images.xcassets */,
 				26C94D7519168EFB0083526A /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				26C94D7F19168EFB0083526A /* WSAppDelegate.m in Sources */,
+				26C94DA51916903E0083526A /* WSTableViewController.m in Sources */,
 				26C94D7B19168EFB0083526A /* main.m in Sources */,
-				26C94D8519168EFB0083526A /* WSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
